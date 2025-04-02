@@ -1,0 +1,29 @@
+// the out is amazing
+import java.util.*;
+public class Problem
+{
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        //Syntax
+        // datatype name[] = new datatype[]
+        int[] roll;//declaration of Arrays
+        roll=new int[5];//initialisation
+        /*roll[0]=33;
+        roll[1]=43;
+        roll[2]=54;
+        roll[3]=12;
+        roll[4]=10;
+        System.out.println(roll[3]);*/
+
+        //input using loop
+        for(int i=0;i < roll.length;i++)
+        {
+            System.out.print("ENter the integer :");
+            roll[i]=in.nextInt();
+          
+            System.out.print(Arrays.toString(roll));
+            System.out.println();
+        }
+    }
+}
